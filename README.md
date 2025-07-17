@@ -1,7 +1,7 @@
 # Desktop Assistant
 桌面助手
 
-SD Desktop Assistant 是一个基于 Qt 的桌面助手应用，提供天气预报、每日格言、重要日期提醒和备忘录管理等功能。应用使用 SQLite 数据库存储数据，并通过网络 API 获取实时信息。
+Desktop Assistant 是一个基于 Qt 的桌面助手应用，提供天气预报、每日格言、重要日期提醒和备忘录管理等功能。应用使用 SQLite 数据库存储数据，并通过网络 API 获取实时信息。
 
 ## 项目概述
 
@@ -9,7 +9,7 @@ SD Desktop Assistant 是一个基于 Qt 的桌面助手应用，提供天气预�
 - **功能亮点**：实时天气、随机格言与图片、日期提醒、备忘录管理
 - **适用平台**：Windows (可扩展)
 - **组织名称**：MyOrg
-- **应用名称**：sd-desktop-assistant
+- **应用名称**：desktop-assistant
 
 应用界面简洁，支持无边框窗口、自定义标题栏和拖拽移动。数据存储在本地，确保隐私和离线可用性。
 
