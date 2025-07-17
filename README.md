@@ -26,25 +26,19 @@ SD Desktop Assistant 是一个基于 Qt 的桌面助手应用，提供天气预�
 以下是应用的主要界面截图。
 
 ### 主界面
-![主界面图片](images/main_interface.png)  
+<img src="images/main_interface.png" alt="主界面图片" width="30%">
 
 ### 天气模块
-![天气模块图片](images/weather_module.gif)  
+<img src="images/weather_module.gif" alt="天气模块图片" width="30%">
 
 ### 格言与重要日模块
-![格言重要日模块图片](images/tips_important_day_module.gif)  
+<img src="images/tips_important_day_module.gif" alt="格言重要日模块图片" width="30%">
 
 ### 重要日管理界面
-![备忘录管理界面图片](images/important_day_module.png)  
+<img src="images/important_day_module.png" alt="备忘录管理界面图片" width="30%">
 
 ### 备忘录管理界面
-![备忘录管理界面图片](images/memo_module.png)  
-
-
-
-（如果有更多截图，如对话框或编辑界面，请在下方添加类似格式的 Markdown 图片嵌入，例如：  
-![其他图片](images/other_screenshot.png)  
-<!-- 请上传其他图片到 images/ 目录，并命名为 other_screenshot.png -->）
+<img src="images/memo_module.png" alt="备忘录管理界面" width="30%">
 
 ## 使用指南
 
