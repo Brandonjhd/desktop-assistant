@@ -1,0 +1,55 @@
+QWidget {
+    background-color: #F0F8FF;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 11pt;
+    color: #333333; /* 深灰文字 */
+}
+
+QWidget#titleBar {
+    background: transparent;/* 透明背景 */
+    border: none; /* 无边框 */
+    border-radius: 10px; /* 圆角 */
+}
+
+QFrame {
+    border: 1px solid #DDE6ED; /* 浅灰边框 */
+    border-radius: 5px; /* 圆角 */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #F0FFFF, stop:1 #F0F8FF); /* 渐变背景 */
+}
+
+QLabel {
+    padding: 5px; /* 间距优化 */
+}
+
+QToolButton {
+    border: none;
+    background: transparent;
+}
+
+QToolButton:hover {
+    background: #DCDCDC; /* 悬停渐变 */
+    border-radius: 5px;
+}
+
+QListWidget {
+    border: none;
+    background: transparent;
+}
+
+QWidget#Tipslbl {
+    font-size: 9pt;
+    border: none;
+    background: transparent;
+}
+
+QWidget#semiTransparentBox {
+    background-color: rgba(240, 255, 255, 120);
+    border-radius: 5px; /* 圆角 */
+    border: 1px solid rgba(240, 248, 255, 100);
+}
+
+QLabel#tipsImage {
+    border-radius: 5px; /* 图片圆角半径 */
+    border: none; /* 无边框 */
+    background: transparent; /* 透明背景 */
+}
