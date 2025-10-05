@@ -1,5 +1,4 @@
-# Desktop Assistant
-桌面助手
+# Desktop Assistant（Qt桌面助手）
 
 ## 简介
 Desktop Assistant 是一个基于 Qt 的桌面助手应用，提供天气预报、每日格言、重要日期提醒和备忘录管理等功能。应用使用 SQLite 数据库存储数据，并通过网络 API 获取实时信息。
