@@ -1,91 +1,67 @@
-3.
- 
-**
-添加重要日期
-**
-：点击格言模块的 "+" 按钮，输入标题和日期。
-4.
- 
-**
-管理备忘录
-**
-：点击备忘录模块的 "+" 按钮添加，双击列表项编辑/查看。
-5.
- 
-**
-数据库位置
-**
-：数据存储在 
-`
-%APPDATA%/MyOrg/sd-desktop-assistant/data.db
-`
-。
-**
-注意
-**
-：
+# Desktop Assistant
+桌面助手
+
+## 简介
+Desktop Assistant 是一个基于 Qt 的桌面助手应用，提供天气预报、每日格言、重要日期提醒和备忘录管理等功能。应用使用 SQLite 数据库存储数据，并通过网络 API 获取实时信息。
+
+## 项目概述
+- **技术栈**：Qt (C++), SQLite, QNetworkAccessManager
+- **功能亮点**：实时天气、随机格言与图片、日期提醒、备忘录管理
+- **适用平台**：Windows (可扩展)
+- **应用名称**：desktop-assistant
+
+## 特性
+- **天气模块**：显示当前天气和未来 4 天预报，支持手动刷新。数据来源于和风天气 API。
+- **格言与重要日模块**：随机显示励志格言和图片，支持添加/编辑重要日期，并计算距离天数。
+- **备忘录模块**：支持添加、编辑、删除备忘录，最多显示前 3 条记录，双击查看详情。
+- **数据库管理**：使用单例模式管理 SQLite 连接，支持外键约束和自动建表。
+- **UI 优化**：圆角窗口、阴影效果、加载动画和 QSS 样式表。
+
+## 截图
+以下是应用的主要界面截图。
+
+### 主界面
+<img src="images/main_interface.png" alt="主界面图片" width="30%">
+
+### 天气模块
+<img src="images/weather_module.gif" alt="天气模块图片" width="30%">
+
+### 格言与重要日模块
+<img src="images/tips_important_day_module.gif" alt="格言重要日模块图片" width="30%">
+
+### 重要日管理界面
+<img src="images/important_day_module.png" alt="备忘录管理界面图片" width="30%">
+
+### 备忘录管理界面
+<img src="images/memo_module.png" alt="备忘录管理界面" width="30%">
+
+## 使用指南
+1. **启动应用**：运行可执行文件，自动加载天气和格言数据。
+2. **天气刷新**：点击天气模块的更新按钮。
+3. **添加重要日期**：点击格言模块的 "+" 按钮，输入标题和日期。
+4. **管理备忘录**：点击备忘录模块的 "+" 按钮添加，双击列表项编辑/查看。
+5. **数据库位置**：数据存储在 `%APPDATA%/MyOrg/sd-desktop-assistant/data.db`。
+
+**注意**：
 1、网络功能需要互联网连接。
 2、需要修改weather_update.h中修改自己的和风天气api密钥。
-##
- 作者
-[
-Brandonjhd
-]
-(
-https://github.com/Brandonjhd
-)
-[
-charles06-l
-]
-(
-https://github.com/charles06-l
-)
-[
-clinedddd
-]
-(
-https://github.com/clinedddd
-)
-[
-JDJD060520
-]
-(
-https://github.com/JDJD060520
-)
-[
-lmnb66778
-]
-(
-https://github.com/lmnb66778
-)
-[
-purple308
-]
-(
-https://github.com/purple308
-)
-[
-xfr1688
-]
-(
-https://github.com/xfr1688
-)
-##
- License
-本项目采用 
-[
-CC BY-NC-SA 4.0
-]
-(
-https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
-)
- 协议开源，使用、引用及分享时需署名，不得用于商业用途，衍生作品须采用相同协议共享。
+
+## 作者
+[Brandonjhd](https://github.com/Brandonjhd)
+[charles06-l](https://github.com/charles06-l)
+[clinedddd](https://github.com/clinedddd)
+[JDJD060520](https://github.com/JDJD060520)
+[lmnb66778](https://github.com/lmnb66778)
+[purple308](https://github.com/purple308)
+[xfr1688](https://github.com/xfr1688)
+
+## License
+本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议开源，使用、引用及分享时需署名，不得用于商业用途，衍生作品须采用相同协议共享。
 ###请注意：
--
- 本项目仅允许开源学习及个人非商业用途
--
- 未经作者明确授权，禁止用于任何商业用途
--
- 使用本项目时，请务必保留署名及本仓库出处：https://github.com/Brandonjhd/GetURLScheme
+- 本项目仅允许开源学习及个人非商业用途
+- 未经作者明确授权，禁止用于任何商业用途
+- 使用本项目时，请务必保留署名及本仓库出处：https://github.com/Brandonjhd/GetURLScheme
+
 ---
+
 如果您有问题或建议，请在 Issues 中提出。感谢使用！
